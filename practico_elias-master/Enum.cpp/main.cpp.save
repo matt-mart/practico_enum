@@ -1,0 +1,53 @@
+#include <iostream>
+#include <string.h>
+using namespace std;
+
+ typedef enum _ciudad{
+
+Maldonado, San_Carlos, Piriapolis, FIN
+
+ }ciudad;
+
+int main()
+{
+   // char palabra[20];
+    string palabra;
+    ciudad localidad=FIN;
+
+    cout<<"Ingrese ciudad!"<<endl;
+    getline(cin, palabra ,'\n');
+//    cin.getline(palabra, 20);
+
+
+//
+//    if (strcmp(palabra, "Maldonado")==0){
+//      localidad=Maldonado;
+//      }
+//    if (strcmp(palabra, "San Carlos")==0){
+//      localidad=San_Carlos;
+//      }
+//    if (strcmp(palabra, "Piriapolis")==0){
+//      localidad=Piriapolis;
+//    }
+    if (palabra=="Maldonado"){
+
+      localidad=Maldonado;
+
+
+    }
+    if (palabra=="SanCarlos"){
+
+      localidad=San_Carlos;
+
+
+    }
+    if (palabra=="Piriapolis"){
+
+      localidad=Piriapolis;
+
+
+}
+
+
+    //Y HASTA ACA LLEGUE, GG.
+}

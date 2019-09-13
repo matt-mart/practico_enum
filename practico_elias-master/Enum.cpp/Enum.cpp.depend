@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1568371561 source:/home/tecnologo/Escritorio/Enum.cpp/main.cpp
+	<iostream>
+	<string.h>
+
+1568374137 source:/home/tecnologo/Escritorio/practico_elias-master/Enum.cpp/main.cpp
+	<iostream>
+	<string.h>
+	<stdlib.h>
+	"./lib/nodo.hpp"
+	"./lib/agregar_frente.hpp"
+	"./lib/mostrar_lista.hpp"
+	"./lib/ayuda.hpp"
+
+1568372218 /home/tecnologo/Escritorio/practico_elias-master/Enum.cpp/lib/nodo.hpp
+
+1568372190 /home/tecnologo/Escritorio/practico_elias-master/Enum.cpp/lib/agregar_frente.hpp
+
+1568373827 /home/tecnologo/Escritorio/practico_elias-master/Enum.cpp/lib/mostrar_lista.hpp
+
+1568374129 /home/tecnologo/Escritorio/practico_elias-master/Enum.cpp/lib/ayuda.hpp
+
